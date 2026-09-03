@@ -8,6 +8,7 @@ This repo is a single app with a scrollable list of **60+ native features**. Eve
 
 ## Table of Contents
 
+- [Test results](#test-results)
 - [What is a MethodChannel?](#what-is-a-methodchannel)
 - [Project structure](#project-structure)
 - [Example list (what's inside)](#example-list-whats-inside)
@@ -18,6 +19,29 @@ This repo is a single app with a scrollable list of **60+ native features**. Eve
 - [How it works (code walkthrough)](#how-it-works-code-walkthrough)
 - [Platform notes & permission](#platform-notes--permissions)
 - [Need help](#need-help)
+
+---
+
+## Test results
+
+Both platforms verified on real emulators/simulators — Dart → native → Dart round trip works end to end.
+
+<table>
+<tr>
+<td align="center" width="50%">
+<b>Android</b> (Medium_Phone API 36 emulator)<br/>
+<code>getDeviceInfo</code> result
+<br/><br/>
+<img src="screenshots/android_test_result.png" width="320" alt="Android MethodChannel demo running getDeviceInfo on an emulator" />
+</td>
+<td align="center" width="50%">
+<b>iOS</b> (iPhone 17 Pro Max simulator)<br/>
+<code>getSystemVersion</code> result
+<br/><br/>
+<img src="screenshots/ios_test_result.jpg" width="320" alt="iOS MethodChannel demo running getSystemVersion on a simulator" />
+</td>
+</tr>
+</table>
 
 ---
 
